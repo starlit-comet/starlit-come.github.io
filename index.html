@@ -2,264 +2,1500 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/0f1a68c42f69b8f0ce55be916e3d1948.png">
-    <title>Microsoft-Clone</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="https://blinkit.com/images/faviconChange.ico" type="image/x-icon">
+
+    <title>Blinkit-Clone</title>
 </head>
 <body>
-    <div class="headersection">
-        <header class="microsoftheader">
-            <div class="headermain">
-                <div class="headerlogo">
-                    <img src="images/microsoftlogo.png" alt="microsoft">
-                </div>
-                <div class="header-align-crt">
-                    
-                    <div class="headermenu">Microsoft 365</div>
-                    <div class="headermenu">Teams</div>
-                    <div class="headermenu">Copilot</div>
-                    <div class="headermenu">Windows</div>
-                    <div class="headermenu">Surface</div>
-                    <div class="headermenu">Xbox</div>
-                    <div class="headermenu">Support</div>
+    <header>
+        <div class="header-container">
+            <div class="header-logo-left">                     
+                    <svg width="134" height="30" viewBox="0 0 114 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.3342 7.186C16.2619 7.186 17.9832 7.66644 19.4978 8.62732C21.0262 9.57447 22.2242 10.9197 23.0917 12.663C23.9316 14.3377 24.3516 16.3075 24.3516 18.5724C24.3516 20.7687 23.9316 22.7316 23.0917 24.4612C22.2517 26.1908 21.0675 27.5429 19.5391 28.5175C17.9969 29.5058 16.2619 30 14.3342 30C12.9297 30 11.6078 29.7117 10.3685 29.1352C9.12927 28.5587 8.06901 27.7488 7.18775 26.7056V29.4852H0V0H7.18775V10.4598C8.06901 9.41661 9.12927 8.61359
+                         10.3685 8.05079C11.6078 7.47426 12.9297 7.186 14.3342 7.186ZM12.1861 24.0494C13.2051 24.0494 14.1139 23.8161 14.9125 23.3493C15.7112 22.8826 16.3377 22.2306 16.7921
+                         21.3933C17.2465 20.5697 17.4737 19.6294 17.4737 18.5724C17.4737 17.5429 17.2465 16.6095 16.7921 15.7721C16.3377 14.9348 15.7112 14.2828 14.9125 13.8161C14.1139 13.3493 13.2051 13.116 12.1861 13.116C11.2223 13.116 10.3617 13.3493 9.60432 13.8161C8.84699 14.269 8.2549 14.9073 7.82804 15.731C7.40118 16.5683 7.18775 17.5154 7.18775 18.5724C7.18775 19.6294 7.40118 20.5765 7.82804 21.4139C8.2549 22.2375 8.84699 22.8826 9.60432 23.3493C10.3617 23.8161 11.2223 24.0494 12.1861 24.0494Z" fill="#F8CB46"></path>
+                        <path d="M25.3356 29.4852V0H32.5233V29.4852H25.3356Z" fill="#F8CB46"></path>
+                        <path d="M34.5607 29.4852V7.68016H41.7071V29.4852H34.5607Z" fill="#F8CB46"></path>
+                        <path d="M57.2319 7.186C58.7603 7.186 60.1372 7.5429 61.3627 8.25669C62.5882 8.95676 63.5521 9.94509 64.2544 11.2217C64.9291 12.512 65.2664 13.9739 65.2664 15.6074V29.4852H58.4092V17.2135C58.4092 16.4173 58.2508 15.7104 57.9341 15.0927C57.6312 14.4612 57.1974 13.9739 56.6329 13.6307C56.0821 13.2876 55.4349 13.116 54.6914 13.116C53.9891 13.116 53.3419 13.2876 52.7498 13.6307C52.1577 13.9602 51.6965 14.4132 51.366 14.9897C51.0218 15.5388 50.8496 16.1839 50.8496 16.9252L50.8083 
+                        29.4852H43.6619V7.68016H50.8083V10.1716C51.483 9.23816 52.3849 8.51064 53.5141 7.98902C54.6432 7.45367 55.8824 7.186 57.2319 7.186Z" fill="#F8CB46"></path>
+                        <path d="M81.0597 17.2135L89.1769 29.4852H81.0597L76.3091 21.7639L74.1198 24.2965V29.4852H66.932V0H74.1198V16.2869L81.0184 7.68016H89.1356L81.0597 17.2135Z" fill="#F8CB46"></path>
+                        <path d="M34.5569 0.00232667H41.7267V5.59207H34.5569V0.00232667Z" fill="#F8CB46"></path><path d="M90.3176 29.4198V7.61479H97.464V29.4198H90.3176Z" fill="#54B226"></path>
+                        <path d="M112.575 23.2634L114 27.855C113.353 28.4727 112.534 28.9737 111.542 29.3581C110.564 29.7424 109.607 29.9346 108.671 29.9346C107.322 29.9346 106.117 29.6395 105.057 29.0492C103.996 28.4452 103.17 27.6079 102.578 26.5372C101.986 25.494 101.69 24.2929 101.69 22.9339V13.3183H98.819V7.61479H101.69V0.00241089H108.547V7.61479H113.071V13.3183H108.547V21.6161C108.547 22.3162 108.733 22.8859 109.105 23.3251C109.477 23.7644
+                         109.952 23.984 110.53 23.984C110.943 23.984 111.329 23.9223 111.687 23.7987C112.045 23.6752 112.341 23.4967 112.575 23.2634Z" fill="#54B226"></path>
+                        <path d="M90.2609 0.00241089H97.4307V5.59215H90.2609V0.00241089Z" fill="#54B226"></path></svg> 
             </div>
-                <div class="header-align-crt">
-                    <div class="headermenu">All microsoft</div>
-                    <div class="headermenu"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 32 32">
-                        <path d="M 19 3 C 13.488281 3 9 7.488281 9 13 C 9 15.394531 9.839844 17.589844 11.25 19.3125 L 3.28125 27.28125 L 4.71875 28.71875 L 12.6875 20.75 C 14.410156 22.160156 16.605469 23 19 23 C 24.511719 23 29 18.511719 29 13 C 29 7.488281 24.511719 3 19 3 Z M 19 5 C 23.429688 5 27 8.570313 27 13 C 27 17.429688 23.429688 21 19 21 C 14.570313 21 11 17.429688 11 13 C 11 8.570313 14.570313 5 19 5 Z"></path>
-                        </svg>
+        <div class="Vertical-line"> </div>
+    
+            <div class="header-delivery">
+                <div class="header-delivery-time">Delivery in 12 Minutes</div>
+                 <div class="header-delivery-location">Banglore, Karnataka, India<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" version="1.1" id="Layer_1" viewBox="0 0 24 24" xml:space="preserve">
+                    <style type="text/css">
+                        .st0{fill:none;}
+                    </style>
+                    <path d="M6.5,8.5l6,7l6-7H6.5z"/>
+                    <rect class="st0" width="24" height="24"/>
+                    <rect class="st0" width="24" height="24"/>
+                    </svg> </div>
+            </div>
+            <div class="header-search">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+                <input type="text" placeholder='Search  "Apple Juice"'>            </div>
+
+                <div class="header-login">Login</div>
+                <div class="header-cart">
+                    <button class="button-mycart"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg><strong class="mycart-text">My Cart</strong></button>
+                    
                     </div>
-                    <div class="headermenu">
-                        <img src="images/icons8-shopping-cart-50.png" alt="">
-                    </div>
-                </div>
-        
-        
+        </div>     
+    </header>
+    <main>
+        <div class="main-container">
+    <section class="section-1">
+        <img src="images/section-1.webp" alt="Section 1 image">
+
+    </section>
+    <section class="section-2">
+        <img src="images/section-2-a.webp" alt="section 2.a image">
+        <img src="images/section-2-b.webp" alt="Section 2.b image">
+        <img src="images/section-2-c.webp" alt="Section 2.c image">
+
+    </section>
+    <section class="section-3">
+        <img src="images/section-3 (8).png" alt="Paan Corner.img">
+        <img src="images/section-3 (9).png" alt="Diary,Bread & Eggs">
+        <img src="images/section-3 (10).png" alt="Fruits and Vegetables">
+        <img src="images/section-3 (11).png" alt="Cold Drinks & Juices">
+        <img src="images/section-3 (12).png" alt="Snacks & Munchies">
+        <img src="images/section-3 (13).png" alt="Section-3-">
+        <img src="images/section-3 (14).png" alt="Section-3-">
+        <img src="images/section-3 (15).png" alt="Section-3-">
+        <img src="images/section-3 (16).png" alt="Section-3-">
+        <img src="images/section-3 (17).png" alt="Section-3-">
+        <img src="images/section-3 (18).png" alt="Section-3-">
+        <img src="images/section-3 (19).png" alt="Section-3-">
+        <img src="images/section-3 (20).png" alt="Section-3-">
+        <img src="images/section-3 (1).png" alt="Section-3-">
+        <img src="images/section-3 (2).png" alt="Section-3-">
+        <img src="images/section-3 (3).png" alt="Section-3-">
+        <img src="images/section-3 (4).png" alt="Section-3-">
+        <img src="images/section-3 (5).png" alt="Section-3-">
+        <img src="images/section-3 (6).png" alt="Section-3-">
+        <img src="images/section-3.png" alt="Section-3-">
+    </section>
+<section class="section-4">
+    <div class="subhead-left">Diary, Bread & Eggs</div>
+    <div class="subhead-right">see all</div>
+</section>
+<section class="product-slider">
+    <div class="productbox">
+        <img  class="product-image" src="images/section-5.a.jpg" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
         </div>
-        </header>
     </div>
-    <div class="container">
-        <img src="images/fullpicture1.avif" alt="">
-        <div class="section1-box">
-            <div class="yellowbox">New</div>
-            <h1>Meet Surface Pro</h1>
-            <p>This Laptop's unrivalled flexibility and AI features like Live Captions and Cocreator, enable you to more than you ever imagined.</p>
-            <div class="bluebox">Learn more</div>
+    <div class="productbox">
+        <img  class="product-image" src="images/5.2.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Gokul Full Cream Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
         </div>
     </div>
-    <div class="option-section-main">
-        <div class="option-section-sub">
-            <img src="images/bw windows.svg" alt="">
-            <p>Choose your Microsoft 365</p>
-        </div>
-        <div class="option-section-sub">
-            <img src="images/bw xbox.svg" alt="">
-            <p>Shop Xbox</p>
-        </div>
-        <div class="option-section-sub">
-            <img src="images/bw windows.svg" alt="">
-            <p>Get Windows 11</p>
-        </div>
-        <div class="option-section-sub">
-            <img src="images/bw surface.svg" alt="">
-            <p>Explore Surface Devices</p>
+    <div class="productbox">
+        <img  class="product-image" src="images/5.3.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Amul Masti curd</div>
+        <div class="product-quantity">200 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 23
+            <button class="addtocartbutton">Add</button></div>
         </div>
     </div>
-
-    <div class="link-section-main">
-        <div class="link-section-sub">
-            <img src="images/link5.avif" alt="">
-            <div class="link-section-sub-content">
-
-                <div class="h1">Copilot is your AI companion</div>
-            <p>Always by your side, ready to support you whenever and whenever you need it.</p>
-            <div class="blue-button"> Download the Copilot app</div>
-        </div></div>
-        <div class="link-section-sub">
-            <img src="images/link6.avif" alt="">
-            <div class="link-section-sub-content">
-
-                <div class="h1">Xbox Series X</div>
-            <p>The fastest, most powerful Xbox ever.</p>
-            <div class="blue-button">Shop Xbox Series X
-            </div></div>
+    <div class="productbox">
+        <img  class="product-image" src="images/5.4.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Mother Diary Classic Curd</div>
+        <div class="product-quantity">400 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 35
+            <button class="addtocartbutton">Add</button></div>
         </div>
-        <div class="link-section-sub">
-            <img src="images/link7.jpeg" alt="">
-            <div class="link-section-sub-content">
-
-                <div class="h1">Xbox Series S</div>
-            <p>Next-gen performance in the smallest Xbox ever</p>
-            <div class="blue-button">Shop Xbox Series S</div>
-        </div></div>
-        <div class="link-section-sub">
-            <img src="images/link8.avif" alt="">
-            <div class="link-section-sub-content">
-
-                <div class="h1">Designed for life today - and tomorrow</div>
-            <p>The next-generation of games. Your goals. Friends and family. Windows 11 was made tobring you closer to everything you love.</p>
-            <div class="blue-button">See if your PC is ready</div>
-        </div></div>
     </div>
-    <div class="image1">
-    <img src="images/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create_VP4-1260x600.avif" alt="">
-    <div class="link-section-sub-content1">
-        <div class="h1">Maximise the<br>everyday with <br>Microsoft 365</div>
-    <p>Get online protection, secure cloud storage and innovative apps designed to fit your needs - all in one plan.</p>
-    <div class="blue-button">For one person</div>
-    <span>For up to six people >
-    </span>
-</div>
-
-    </div>
-    <div class="link-section-main-head">For Business</div>
-
-    <div class="link-section-main">
-        <div class="link-section-main-body">
-        <div class="link-section-sub">
-            <img src="images/link1.avif" alt="">
-            <div class="link-section-sub-content">
-                <div class="h1">Copilot is your AI companion</div>
-            <p>Always by your side, ready to support you whenever and whenever you need it.</p>
-            <div class="blue-button"> Download the Copilot app</div>
+    <div class="productbox">
+        <img  class="product-image" src="images/5.5.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Homogenised Toned...</div>
+        <div class="product-quantity">1 Ltr</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 74
+            <button class="addtocartbutton">Add</button></div>
         </div>
-        </div>
-        <div class="link-section-sub">
-            <img src="images/link2.webp" alt="">
-            <div class="link-section-sub-content">
-
-                <div class="h1">Xbox Series X</div>
-            <p>The fastest, most powerful Xbox ever.</p>
-            <div class="blue-button">Shop Xbox Series X
-            </div></div>
-        </div>
-        <div class="link-section-sub">
-            <img src="images/link3.webp" alt="">
-            <div class="link-section-sub-content">
-
-                <div class="h1">Xbox Series S</div>
-            <p>Next-gen performance in the smallest Xbox ever</p>
-            <div class="blue-button">Shop Xbox Series S</div>
-        </div></div>
-        <div class="link-section-sub">
-            <img src="images/link4.avif" alt="">
-            <div class="link-section-sub-content">
-
-            <div class="h1">Designed for life today - and tomorrow</div>
-            <p>The next-generation of games. Your goals. Friends and family. Windows 11 was made tobring you closer to everything you love.</p>
-            <div class="blue-button">See if your PC is ready</div>
-        </div></div>
     </div>
-    </div>
-
-<div class="socialmedia-follow">
-    <div class="textbox">
-        Follow Microsoft
-        <img src="images/fb.avif" alt="">
-        <img src="images/twitterx.avif" alt="">
-        <img src="images/yt.webp" alt="">
-    </div>
-</div>
-
-    <div class="footer">
-        <footer class="footermain">
-            <div class="footer-section">
-                <h4>	What's new	</h4>
-<div class="footer-section-elements">	Surface Pro	</div>
-<div class="footer-section-elements">	Surface Laptop	</div>
-<div class="footer-section-elements">	Microsoft Copilot	</div>
-<div class="footer-section-elements">	Microsoft 365	</div>
-<div class="footer-section-elements">	Explore Microsoft products	</div>
-<div class="footer-section-elements">	Windows 11 apps	</div>
-           </div>
-
-           <div class="footer-section">
-            <h4>	Microsoft Store	</h4>
-<div class="footer-section-elements">	Account profile	</div>
-<div class="footer-section-elements">	Download Center	</div>
-<div class="footer-section-elements">	Microsoft Store Support	</div>
-<div class="footer-section-elements">	Returns	</div>
-<div class="footer-section-elements">	Order tracking	</div>
-       </div>
-
-       <div class="footer-section">
-        <h4>	Education	</h4>
-<div class="footer-section-elements">	Microsoft in education	</div>
-<div class="footer-section-elements">	Devices for education	</div>
-<div class="footer-section-elements">	Microsoft Teams for Education	</div>
-<div class="footer-section-elements">	Microsoft 365 Education	</div>
-<div class="footer-section-elements">	Office Education	</div>
-<div class="footer-section-elements">	Educator training and development	</div>
-<div class="footer-section-elements">	Deals for students and parents	</div>
-<div class="footer-section-elements">	Azure for students	</div>
-   </div>
-
-   <div class="footer-section">
-    <h4>	Business	</h4>
-<div class="footer-section-elements">	Microsoft Cloud	</div>
-<div class="footer-section-elements">	Microsoft Security	</div>
-<div class="footer-section-elements">	Azure	</div>
-<div class="footer-section-elements">	Dynamics 365	</div>
-<div class="footer-section-elements">	Microsoft 365	</div>
-<div class="footer-section-elements">	Microsoft Advertising	</div>
-<div class="footer-section-elements">	Microsoft 365 Copilot	</div>
-<div class="footer-section-elements">	Microsoft Teams	</div>
-</div>
-
-<div class="footer-section">
-    <h4>	Developer & IT	</h4>
-<div class="footer-section-elements">	Developer Center	</div>
-<div class="footer-section-elements">	Documentation	</div>
-<div class="footer-section-elements">	Microsoft Learn	</div>
-<div class="footer-section-elements">	Microsoft Tech Community	</div>
-<div class="footer-section-elements">	Azure Marketplace	</div>
-<div class="footer-section-elements">	AppSource	</div>
-<div class="footer-section-elements">	Microsoft Power Platform	</div>
-<div class="footer-section-elements">	Visual Studio	</div>
-</div>
-
-<div class="footer-section">
-    <h4>	Company	</h4>
-<div class="footer-section-elements">	Careers	</div>
-<div class="footer-section-elements">	About Microsoft	</div>
-<div class="footer-section-elements">	Company news	</div>
-<div class="footer-section-elements">	Privacy at Microsoft	</div>
-<div class="footer-section-elements">	Investors	</div>
-<div class="footer-section-elements">	Security	</div>
-<div class="footer-section-elements">	Sustainability</div>
-</div>
-
-
-</footer>
-
-<div class="footer-last">
-    <div class="footer-last-left">
-        <div class="left-section">
-            <div><img src="images/earth-globe-tool-svgrepo-com.svg" alt="">English (India)
+    <div class="productbox">
+        <img  class="product-image" src="images/5.6.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Cow Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
         </div>
-        </div>
-        <div class="left-section"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16" width="43">
-            <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"></path>
-            <path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"></path>
-            <path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"></path>
-            <path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"></path>
-        </svg>Your Privacy Choices</div>
-        <div class="left-section">Consumer Health Privacy</div>
     </div>
-    <div class="footer-last-right-main">
-    <div class="footer-last-right">
-        <p class="contact">Contact Microsoft</p>
-        <p>Privacy</p>
-        <p>Terms of use</p>
-        <p>Trademarks</p>
-        <p>About our ads</p>
-        <p>&#169; Microsoft 2024</p>
-    </div></div>
-</div>
-
+    <div class="productbox">
+        <img  class="product-image" src="images/5.7.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Kwality Special White Bread</div>
+        <div class="product-quantity">400 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 40
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/5.8.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Amul Gold Full Cream Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 34
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/5.9.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Yojana poultry Power White Eggs - 6 pcs</div>
+        <div class="product-quantity">6 pcs</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 55
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/5.10.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Yojana Poultry Power White Eggs- 12 pcs</div>
+        <div class="product-quantity">12 pieces</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 110
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/5.11.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Modern Sandwich Bread</div>
+        <div class="product-quantity">400g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 40
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/5.12.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Gowardhan Curd</div>
+        <div class="product-quantity">500 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 45
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/5.13.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Gokul Satvik Pasteurized Cow Fresh...</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/5.14.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Mother Diary Classic Curd</div>
+        <div class="product-quantity">400g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 50
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/5.15.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Amul Moti Toned Milk (90 Days Shelf Life)</div>
+        <div class="product-quantity">450 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 33
+            <button class="addtocartbutton">Add</button></div>
+        </div>
     </div>
     
+
+
+</section>
+
+
+<section class="section-4">
+    <div class="subhead-left">Rolling paper & tobacco</div>
+    <div class="subhead-right">see all</div>
+</section>
+<section class="product-slider">
+    <div class="productbox">
+        <img  class="product-image" src="images/pp1.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        
+        <div class="product-name">Small 2 layer Crusher with Cleaning Mesh by...</div>
+        <div class="product-quantity">1 peice</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 550
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp2.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        
+        <div class="product-name">Brown Rolling Paper + Roach with Crushing...</div>
+        <div class="product-quantity">1 pack</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 222
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp3.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        
+        <div class="product-name">Brown Rolling Paper (King Size) - Stash Pro</div>
+        <div class="product-quantity">1 unit (32 pieces)</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 50
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp4.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        
+        <div class="product-name">Brown Ripper Rolling Paper 32 Leaves + 32...</div>
+        <div class="product-quantity">1 pack(64 pieces)</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 120
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp5.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        
+        <div class="product-name">Perfect Rolling Paper (Pink) - Bongchie</div>
+        <div class="product-quantity">3 pack</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 45
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp6.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Perfect Rolled Cones (Natural) - Bongchie</div>
+        <div class="product-quantity">3 pack</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 45
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp7.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Pink Rolling Paper (King Size Slim) - Stash Pro</div>
+        <div class="product-quantity">32 sheets</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 70
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp8.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Colour Roach - Stash Pro</div>
+        <div class="product-quantity">32 sheets</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 50
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp9.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Ripper Tipper Brown Rolling Paper (small) b...</div>
+        <div class="product-quantity">1 pack (40 + 40 pieces)</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 120
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp10.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Bio-Degradable Crusher by Stash Pro</div>
+        <div class="product-quantity">1 piece</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 300
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp11.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">White Ripper Tipper Rolling Paper with...</div>
+        <div class="product-quantity">1 pack(32 + 32 Pieces)</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 100
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp12.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Ultimate Rolling paper With Filter Tips &...</div>
+        <div class="product-quantity">1 pack (32 pieces)</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 50
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp13.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Brown Rolling Paper Cones - Stash Pro</div>
+        <div class="product-quantity">6 pieces</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 90
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp14.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Brown Party Cone Rolling Paper by stash...</div>
+        <div class="product-quantity">1 pack (3 pieces)</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 80
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/pp15.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Ultimate Rolling Paper with Filter Tips &...</div>
+        <div class="product-quantity">1 pack (32 Leaves + 32...</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 80
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    
+</section>
+
+
+<section class="section-4">
+    <div class="subhead-left">Snacks & Munchies</div>
+    <div class="subhead-right">see all</div>
+</section>
+<section class="product-slider">
+    <div class="productbox">
+        <img  class="product-image" src="images/ss1.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Cheetos Cheez puffs</div>
+        <div class="product-quantity">28 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 10
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss2.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Kettle Studio Potato Chips - Rock Sea Salt...</div>
+        <div class="product-quantity">113 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 99
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss3.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">30 MINS</span>
+        </button>
+        <div class="product-name">DOKi Tokyo Teriyaki Buffalo Jerky</div>
+        <div class="product-quantity">30 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 199
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss4.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Kettle Studio Potato Chips - Mature Chedda...</div>
+        <div class="product-quantity">113 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 99
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss5.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">30 MINS</span>
+        </button>
+        <div class="product-name">DOKi Tokyo Teriyaki Chicken Jerky</div>
+        <div class="product-quantity">30 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 199
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss6.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Nongshim Shrimp Flavoured Hot & Spicy...</div>
+        <div class="product-quantity">75 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 199
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss7.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">30 MINS</span>
+        </button>
+        <div class="product-name">DOKi Korean Gochujang Buffalo Jerky</div>
+        <div class="product-quantity">75 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 129
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss8.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Lo! Foods Baked Bikaneri Bhujia Roasted</div>
+        <div class="product-quantity">80 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 99
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss9.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Kab's Jackpot Fiery and Crunchy Crisps</div>
+        <div class="product-quantity">80 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 65
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss10.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Kettle Studio Wafers - Lightly Salted</div>
+        <div class="product-quantity">150 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 80
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+
+    <div class="productbox">
+        <img  class="product-image" src="images/ss11.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        
+        <div class="product-name">Orion k Snack Kimchi Onin Rings</div>
+        <div class="product-quantity">70 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 60
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss12.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        
+        <div class="product-name">Lo! Foods Keto Murukku Chakli(Low Carb Diet...</div>
+        <div class="product-quantity">200g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 299
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss14.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        
+        <div class="product-name">Kab's Jackpot Fire Balls Snack</div>
+        <div class="product-quantity">60 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 65
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss13.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        
+        <div class="product-name">Turtle Wafer Chips</div>
+        <div class="product-quantity">55 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 50
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/ss15.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        
+        <div class="product-name">Kabs's Jackpot Chilli Lemon Stix Crisps</div>
+        <div class="product-quantity">80 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 65
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    
+</section>
+
+
+<section class="section-4">
+    <div class="subhead-left">Hookah</div>
+    <div class="subhead-right">see all</div>
+</section>
+<section class="product-slider">
+    
+    <div class="productbox">
+        <img  class="product-image" src="images/hh1.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Double Apple Herbal Hookah Flavor...</div>
+        <div class="product-quantity">50 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 100
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/hh2.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Pumpkin Hookah / Sheesha by Rhythm...</div>
+        <div class="product-quantity">1 unit</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 700
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/hh3.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Premium Magic Coal By Sash Pro</div>
+        <div class="product-quantity">1 pack (10 pieces)</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 80
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/hh4.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        <div class="product-name">Flat Coconut Hookah Coal Cubes by Stash...</div>
+        <div class="product-quantity">250 g (30 pieces)</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 125
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    
+</section>
+
+<section class="section-4">
+    <div class="subhead-left">Mouth Freshners</div>
+    <div class="subhead-right">see all</div>
+</section>
+<section class="product-slider">
+    <div class="productbox">
+        <img  class="product-image" src="images/mm1.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        
+        <div class="product-name">Rahnigandha Silver Pearls - Silver Coated</div>
+        <div class="product-quantity">6 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 60
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm2.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm3.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm4.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm5.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+
+    <div class="productbox">
+        <img  class="product-image" src="images/mm6.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm7.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm8.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm9.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm10.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm11.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm12.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm13.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm14.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/mm15.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    
+</section>
+
+<section class="section-4">
+    <div class="subhead-left">Cold Drinks & Juices</div>
+    <div class="subhead-right">see all</div>
+</section>
+<section class="product-slider">
+    <div class="productbox">
+        <img  class="product-image" src="images/cc1.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">10 MINS</span>
+        </button>
+        
+        <div class="product-name">Rajnigandha Silver Pearls - Silver Coated</div>
+        <div class="product-quantity">6 g</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 60
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc2.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc3.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc4.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc5.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+
+    <div class="productbox">
+        <img  class="product-image" src="images/cc6.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc7.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc8.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc9.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc10.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc11.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc12.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc13.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc14.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/cc15.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    
+</section>
+
+<section class="section-4">
+    <div class="subhead-left">Candies & Gums</div>
+    <div class="subhead-right">see all</div>
+</section>
+<section class="product-slider">
+    <div class="productbox">
+        <img  class="product-image" src="images/gg1.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg2.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg3.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg4.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg5.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+
+    <div class="productbox">
+        <img  class="product-image" src="images/gg6.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg7.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg8.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg9.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg10.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg11.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg12.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg13.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg14.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    <div class="productbox">
+        <img  class="product-image" src="images/gg15.avif" alt="">
+        <button class="reach-time">
+            <img src="images/section-5-timerlogo.png" alt="timer logo">
+            <span class="reach-time-text">9 MINS</span>
+        </button>
+        <div class="product-name">Amul Taaza Toned Fresh Milk</div>
+        <div class="product-quantity">500 ml</div>
+        <div class="product-mrp-and-addbutton">
+            <div class="product-mrp">&#8377; 28
+            <button class="addtocartbutton">Add</button></div>
+        </div>
+    </div>
+    
+</section>
+
+</div>
+</main>
+<div class="footercontainer">
+    <footer class="footermain">
+        <div class="footermain1">
+        
+        <div class="footer-section1">
+            <div class="section1-head">Useful Links</div>
+            <div class="grid-container">
+                <div class="grid-item">	About	</div>
+                    <div class="grid-item">	Careers	</div>
+                    <div class="grid-item">	Blog	</div>
+                    <div class="grid-item">	Press	</div>
+                    <div class="grid-item">	Lead	</div>
+                    <div class="grid-item">	Value	</div>
+                    <div class="grid-item">	Privacy	</div>
+                    <div class="grid-item">	Terms	</div>
+                    <div class="grid-item">	FAQs	</div>
+                    <div class="grid-item">	Security	</div>
+                    <div class="grid-item">	Mobile	</div>
+                    <div class="grid-item">	Contact	</div>
+                    <div class="grid-item">	Partner	</div>
+                    <div class="grid-item">	Franchise	</div>
+                    <div class="grid-item">	Seller	</div>
+                    <div class="grid-item">	Warehouse	</div>
+                    <div class="grid-item">	Deliver	</div>
+                    <div class="grid-item">	Resources	</div>
+            </div></div>
+        
+        <div class="footer-section2">
+            <div class="section2-head">Categories  
+                <span class="section2-head-sub">  see all</span>
+            </div>
+            <div class="grid-container2">
+                <div class="grid-items2">	Vegetables & Fruits	</div>
+                <div class="grid-items2">	Dairy & Breakfast	</div>
+                <div class="grid-items2">	Munchies	</div>
+                <div class="grid-items2">	Cold Drinks & Juices	</div>
+                <div class="grid-items2">	Instant & Frozen Food	</div>
+                <div class="grid-items2">	Tea, Coffee & Health Drinks	</div>
+                <div class="grid-items2">	Bakery & Biscuits	</div>
+                <div class="grid-items2">	Sweet Tooth	</div>
+                <div class="grid-items2">	Atta, Rice & Dal	</div>
+                <div class="grid-items2">	Dry Fruits, Masala & Oil	</div>
+                <div class="grid-items2">	Sauces & Spreads	</div>
+                <div class="grid-items2">	Chicken, Meat & Fish	</div>
+                <div class="grid-items2">	Paan Corner	</div>
+                <div class="grid-items2">	Organic & Premium	</div>
+                <div class="grid-items2">	Baby Care	</div>
+                <div class="grid-items2">	Pharma & Wellness	</div>
+                <div class="grid-items2">	Cleaning Essentials	</div>
+                <div class="grid-items2">	Home & Office	</div>
+                <div class="grid-items2">	Ice Creams & Frozen Desserts	</div>
+                <div class="grid-items2">	Personal Care	</div>
+                <div class="grid-items2">	Pet Care	</div>
+                <div class="grid-items2">	Beauty & Cosmetics	</div>
+                <div class="grid-items2">	Books	</div>
+                <div class="grid-items2">	Toys & Games	</div>
+                <div class="grid-items2">	Magazines	</div>
+                <div class="grid-items2">	Print Store	</div>
+                <div class="grid-items2">	Navratri Specials	</div>
+            </div>
+        </div></footer>
+</div>
+<div class="social-media-links">
+    <div class="social-media">
+        <div class="social-media-box">&#169; Blinkit-Clone Made with &#10084;&#65039; by Akshai T R</div>
+    </div>
+    <div class="download-now">Download App</div>
+    <div class="appstore-img"><img src="images/appstore.webp" alt="Download on the appstore .img"></div>
+    <div class="appstore-img"><img src="images/googleplay.webp" alt=""></div>
+    <div class="logo-svg"><div class="logo-svg-item">
+        <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" rx="50" fill="white"></rect><path fill-rule="evenodd" 
+            clip-rule="evenodd" d="M42.9417 77.2H54.1817V49.9967H61.68L62.6733 40.6233H54.1817L54.1933
+             35.93C54.1933 33.4867 54.4267 32.175 57.9333 32.175H62.62V22.8H55.12C46.1117 22.8 42.9417 27.3483 42.9417 34.995V40.6233H37.3267V49.9983H42.9417V77.2V77.2ZM50 100C22.3867 100 0 77.6133 
+             0 50C0 22.385 22.3867 0 50 0C77.6133 0 100 22.385 100 50C100 77.6133 77.6133 100 50 100Z" fill="#1F1F1F"></path></svg>
+            </div>
+            <div class="logo-svg-item"><svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" rx="50" fill="#1F1F1F"></rect><path d="M75 34.6178C73.4015 35.5058 71.4479 36.0386 69.6718 36.2162C71.6255 34.973 73.0463
+                 33.0193 73.7568 30.7104C71.9807 31.7761 70.027 32.6641 67.7181 33.1969C65.9421 31.2432 63.6332 30 60.9691 30C55.8185 30 51.556 34.4402 51.556 40.1236C51.556 40.834 51.556 41.722 51.7336 42.4324C43.9189 42.0772 36.9923 37.9923 32.3745 31.9537C31.4865 33.3745 31.1313 35.1506 31.1313 37.1042C31.1313 40.6564 32.7297 43.6757 35.2162 45.4517C33.6178 45.4517 
+                32.1969 44.9189 30.9537 44.2085V44.3861C30.9537 49.1815 34.1506 53.2664 38.4131 54.332C37.7027 54.5097 36.8147 54.6873 35.9266 54.6873C35.3938 54.6873 34.6834 54.6873 34.1506 54.5097C35.3938 58.5946 38.7683 61.4363 42.8533 61.4363C39.6564 64.1004 35.5714 65.6988 31.3089 65.6988C30.5985 65.6988 29.888 65.6988 29 65.5212C33.0849 68.3629 38.0579
+                 70.139 43.3861 70.139C60.6139 70.139 70.027 54.8649 70.027 41.5444C70.027 41.1892 70.027 40.6564 70.027 40.3012C72.1583 38.5251 73.7568 36.749 75 34.6178Z" fill="white"></path></svg></div>
+            <div class="logo-svg-item"><svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_6973_248115)"><rect width="100" height="100" rx="50" fill="white"></rect><path d="M49.5935 59.3496C54.5326 59.3496 58.5366 55.3456 58.5366 50.4065C58.5366 45.4674 54.5326 41.4634 49.5935 41.4634C44.6544 41.4634 40.6504 45.4674 40.6504 50.4065C40.6504 55.3456 44.6544 59.3496 49.5935 59.3496Z" fill="#1F1F1F"></path><path d="M60.7724 28.4553H38.4146C35.1626 28.4553 32.3171 29.4716 30.4878 31.3008C28.6585 33.1301 27.6423 35.9756 27.6423 39.2276V61.5854C27.6423 64.8374 28.6585 67.6829 30.6911 69.7155C32.7236 71.5447 35.3659 72.561 38.6179 72.561H60.7724C64.0244 72.561 66.8699 71.5447 68.6992 69.7155C70.7317 67.8862 71.748 65.0407 71.748 61.7886V39.4309C71.748 36.1789 70.7317 33.5366 68.9024 31.5041C66.8699 29.4716 64.2276 28.4553 60.7724 28.4553ZM49.5935 64.2276C41.8699 64.2276 35.7724 57.9268 35.7724 50.4065C35.7724 42.6829 42.0732 36.5854 49.5935 36.5854C57.1138 36.5854 63.6179 42.6829 63.6179 50.4065C63.6179 58.1301 57.3171 64.2276 49.5935 64.2276ZM64.0244 39.2276C62.1951 39.2276 60.7724 37.8049 60.7724 35.9756C60.7724 34.1463 62.1951 32.7236 64.0244 32.7236C65.8537 32.7236 67.2764 34.1463 67.2764
+                 35.9756C67.2764 37.8049 65.8537 39.2276 64.0244 39.2276Z" fill="#1F1F1F"></path><path d="M50 0C22.3577 0 0 22.3577 0 50C0 77.6423 22.3577 100 50 100C77.6423 100 100 77.6423 100 50C100.203 22.3577 77.6423 0 50 0ZM76.626 61.7886C76.626 66.4634 75 70.5285 72.1545 73.374C69.3089 76.2195 65.2439 77.6423 60.7724 77.6423H38.6179C34.1463 77.6423 30.0813 76.2195 27.2358 73.374C24.187 70.5285 22.7642 66.4634 22.7642 61.7886V39.4309C22.7642 30.0813 29.065 23.5772 38.6179 23.5772H60.9756C65.6504 23.5772 69.5122 25.2033 72.3577 28.0488C75.2032 30.8943 76.626 34.7561 76.626 39.4309V61.7886V61.7886Z" fill="#1f1f1f"></path></g><defs><clipPath id="clip0_6973_248115"><rect width="100" height="100" rx="50" fill="white"></rect></clipPath></defs></svg></div>
+            <div class="logo-svg-item"><svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" rx="50" fill="#1F1F1F"></rect><path d="M38.5 37.5H28V72H38.5V37.5Z" fill="white"></path><path d="M64.0045 37.5C58 37.5 56.335 39.468 55 42V37.5H44.5V72H55V52.5C55 49.5 55 46.5 60.25 46.5C65.5 46.5 65.5 49.5 65.5 52.5V72H76V52.5C76 43.5 74.5 37.5 64.0045 37.5Z" fill="white"></path><path d="M33.25 34.5C36.1495 34.5 38.5 32.1495 38.5 29.25C38.5 26.3505 36.1495 24 33.25 24C30.3505 24 28 26.3505 28 29.25C28 32.1495 30.3505 34.5 33.25 34.5Z" fill="white"></path></svg></div>
+            <div class="logo-svg-item"><svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512"><path d="M105 0h302c57.75 0 105 47.25 105 105v302c0 57.75-47.25 105-105 105H105C47.25 512 0 464.75 0 407V105C0 47.25 47.25 0 105 0z"/><path fill="#fff" fill-rule="nonzero" d="M337.36 243.58c-1.46-.7-2.95-1.38-4.46-2.02-2.62-48.36-29.04-76.05-73.41-76.33-25.6-.17-48.52 10.27-62.8 31.94l24.4 16.74c10.15-15.4 26.08-18.68 37.81-18.68h.4c14.61.09 25.64 4.34 32.77 12.62 5.19 6.04 8.67 14.37 10.39 24.89-12.96-2.2-26.96-2.88-41.94-2.02-42.18 2.43-69.3 27.03-67.48 61.21.92 17.35 9.56 32.26 24.32 42.01 12.48 8.24 28.56 12.27 45.26 11.35 22.07-1.2 39.37-9.62 51.45-25.01 9.17-11.69 14.97-26.84 17.53-45.92 10.51 6.34 18.3 14.69 22.61 24.73 7.31 17.06 7.74 45.1-15.14 67.96-20.04 20.03-44.14 28.69-80.55 28.96-40.4-.3-70.95-13.26-90.81-38.51-18.6-23.64-28.21-57.79-28.57-101.5.36-43.71 9.97-77.86 28.57-101.5 19.86-25.25 50.41-38.21 90.81-38.51 40.68.3 71.76 13.32 92.39 38.69 10.11 12.44 17.73 28.09 22.76 46.33l28.59-7.63c-6.09-22.45-15.67-41.8-28.72-57.85-26.44-32.53-65.1-49.19-114.92-49.54h-.2c-49.72.35-87.96 17.08-113.64 49.73-22.86 29.05-34.65 69.48-35.04 120.16v.24c.39 50.68 12.18 91.11 35.04 120.16 25.68 32.65 63.92 49.39 113.64 49.73h.2c44.2-.31 75.36-11.88 101.03-37.53 33.58-33.55 32.57-75.6 21.5-101.42-7.94-18.51-23.08-33.55-43.79-43.48zm-76.32 71.76c-18.48 1.04-37.69-7.26-38.64-25.03-.7-13.18 9.38-27.89 39.78-29.64 3.48-.2 6.9-.3 10.25-.3 11.04 0 21.37 1.07 30.76 3.13-3.5 43.74-24.04 50.84-42.15 51.84z"/></svg></div>
+    
+            </div>
+</div>
+<div class="final-text">
+    <div class="final-text-line1">“Blinkit” is owned & managed by "Blink Commerce Private Limited" and is not related, linked or interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business operated by</div>
+    <div class="final-text-line1">“Redstone Consultancy Services Private Limited”.</div>
+</div>
 </body>
 </html>
+
